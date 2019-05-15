@@ -1,0 +1,8 @@
+
+version: '3.7'
+services:
+  fxcm:
+    image: python-trading
+    restart: always
+    volumes:
+      - ./:/fxcm
